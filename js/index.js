@@ -28,6 +28,7 @@ for (let i = 0; i < divs.length; i++) {
   divs[i].addEventListener('click',bubble)
 }
 
+//capturing of events
 function capture(e) {
   console.log(this.firstChild.nodeValue.trim() + ' captured');
 }
