@@ -31,7 +31,7 @@ for (let i = 0; i < divs.length; i++) {
 
 //capturing of events
 function capture(e) {
-  e.stopPropagation();
+
   console.log(this.firstChild.nodeValue.trim() + ' captured');
 }
 
