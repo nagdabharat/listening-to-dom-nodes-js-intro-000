@@ -11,7 +11,7 @@ main.addEventListener('click', (event) => {
 //Capturing the user input in input text field
 const input = document.querySelector('input');
 input.addEventListener('keydown', (e) => {
-  if(e.key === 'g') {
+  if(e.key == 'k' || e.key == 'r' || e.key == 'i' || e.key == 'n') {
     return e.preventDefault();
   } else {
     console.log(e.key);
