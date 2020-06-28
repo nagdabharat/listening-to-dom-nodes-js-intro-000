@@ -5,5 +5,5 @@ console.log('JavaScript is loaded');
 const a = document.querySelector('#main');
 console.log(a);
 a.addEventListener('click', (event) => {
-  console.log('I was clicked');
+  alert('I was clicked');
 });
