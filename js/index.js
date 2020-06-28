@@ -17,3 +17,13 @@ input.addEventListener('keydown', (e) => {
     console.log(e.key);
   }
 });
+
+//bubbling of events
+let divs = document.querySelectorAll('div');
+function bubble(e) {
+  console.log(this.firstChild.nodeValue.trim() + 'bubbled');
+}
+
+for (let i = 0; i < divs.length; i++) {
+  divs[i].addEventListener(click,bubble)
+}
